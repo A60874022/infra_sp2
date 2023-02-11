@@ -33,6 +33,9 @@ docker-compose exec web python manage.py createsuperuser
 ### 5 Собрать статику:
 docker-compose exec web python manage.py collectstatic --no-input
 
+### 5 Запускить проект:
 
+1 Перейти в папку infra_sp2/infra/
+2 выполнить команду docker-compose up
 
 После запуска проекта документация и примеры запросов приведены адресу http://127.0.0.1:8000/redoc/ 
