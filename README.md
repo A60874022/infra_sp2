@@ -38,3 +38,4 @@ docker-compose exec web python manage.py collectstatic --no-input
 1 выполнить команду docker-compose up
 
 После запуска проекта документация и примеры запросов приведены адресу http://127.0.0.1:8000/redoc/ 
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
